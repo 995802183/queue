@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/p-common/pom.xml" />
+        <option value="$PROJECT_DIR$/s-eureka-9000/pom.xml" />
+        <option value="$PROJECT_DIR$/p-eureka-8000/pom.xml" />
+        <option value="$PROJECT_DIR$/c-eureka-7000/pom.xml" />
+        <option value="$PROJECT_DIR$/p-eureka-8001/pom.xml" />
+        <option value="$PROJECT_DIR$/m-dashboard-6000/pom.xml" />
+        <option value="$PROJECT_DIR$/m-dashboard-5000/pom.xml" />
+        <option value="$PROJECT_DIR$/p-dashboard-5000/pom.xml" />
+        <option value="$PROJECT_DIR$/c-openfeign-7500/pom.xml" />
+        <option value="$PROJECT_DIR$/a-api/pom.xml" />
+        <option value="$PROJECT_DIR$/s-config-9600/pom.xml" />
+        <option value="$PROJECT_DIR$/c-config-7600/pom.xml" />
+        <option value="$PROJECT_DIR$/p-gateway-8500/pom.xml" />
+        <option value="$PROJECT_DIR$/p-bus-kafka-8500/pom.xml" />
+        <option value="$PROJECT_DIR$/s-kafka-msg-9100/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/m-dashboard-5000/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

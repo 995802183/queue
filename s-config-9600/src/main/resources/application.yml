@@ -1,0 +1,45 @@
+server:
+  port: 9600
+spring:
+  application:
+    name: config-center
+# git
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/995802183/coludconfig
+          username: 995802183
+          password: wangyongwen12
+# cloud bus
+    bus:
+      enabled: true
+      trace:
+        enabled: true
+      refresh:
+        enabled:  true
+    stream:
+      kafka:
+        binder:
+          brokers: 192.168.74.133:9092
+# kafka
+#  kafka:
+#    bootstrap-servers: 192.168.74.133:9092
+
+# eureka service discover
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:9000/eureka
+  instance:
+    hostname: localhost
+    appname: config-center
+
+# actuator
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

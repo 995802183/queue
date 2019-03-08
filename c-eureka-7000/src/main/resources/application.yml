@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: c-eureka
+
+eureka:
+  instance:
+    hostname: localhost
+    appname: c-eureka
+  client:
+    service-url:
+      defaultZone: http://localhost:9000/eureka/
+    register-with-eureka: false
+    fetch-registry: true
+
+server:
+  port: 7000
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream
+      base-path: /

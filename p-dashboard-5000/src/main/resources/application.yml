@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: p-dashboard
+server:
+  port: 5000
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://localhost:9000/eureka
+turbine:
+  app-config: provider-eureka
+  cluster-name-expression: "default"
+  combine-host-port: true
+

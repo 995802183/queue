@@ -1,0 +1,23 @@
+spring:
+  cloud:
+    config:
+#      uri: http://localhost:9600
+      label: master
+      profile: bus
+      discovery:
+        enabled: true
+        service-id: config-center
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9000/eureka
+    fetch-registry: true
+    register-with-eureka: false
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+      base-path: /actuator
+
+

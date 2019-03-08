@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="a-api" />
+        <module name="c-config-7600" />
+        <module name="c-eureka-7000" />
+        <module name="c-openfeign-7500" />
+        <module name="p-bus-kafka-8500" />
+        <module name="p-dashboard-5000" />
+        <module name="p-eureka-8000" />
+        <module name="p-eureka-8001" />
+        <module name="p-gateway-8500" />
+        <module name="s-config-9600" />
+        <module name="s-eureka-9000" />
+        <module name="s-kafka-msg-9100" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="a-api" target="1.8" />
+      <module name="c-config-7600" target="1.8" />
+      <module name="c-eureka-7000" target="1.8" />
+      <module name="c-openfeign-7500" target="1.8" />
+      <module name="m-dashboard-5000" target="1.8" />
+      <module name="p-bus-kafka-8500" target="1.8" />
+      <module name="p-common" target="1.8" />
+      <module name="p-dashboard-5000" target="1.8" />
+      <module name="p-eureka-8000" target="1.8" />
+      <module name="p-eureka-8001" target="1.8" />
+      <module name="p-gateway-8500" target="1.8" />
+      <module name="s-config-9600" target="1.8" />
+      <module name="s-eureka-9000" target="1.8" />
+      <module name="s-kafka-msg-9100" target="1.8" />
+      <module name="s-sleuth-8300" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

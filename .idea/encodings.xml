@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/a-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/c-config-7600" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/c-eureka-7000" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/c-openfeign-7500" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/p-bus-kafka-8500" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/p-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/p-dashboard-5000" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/p-eureka-8000" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/p-eureka-8001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/p-gateway-8500" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/s-config-9600" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/s-eureka-9000" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/s-kafka-msg-9100" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/s-sleuth-8300" charset="UTF-8" />
+  </component>
+</project>

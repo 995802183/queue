@@ -1,0 +1,19 @@
+server:
+  port: 8500
+spring:
+  application:
+    name: api-gateway
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:9000/eureka
+  instance:
+    appname: api-geteway
+zuul:
+  routes:
+      hello:
+        path: /api-hello/*
+        serviceId: provider-eureka
+

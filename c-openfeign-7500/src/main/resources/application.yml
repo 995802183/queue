@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: c-openfeign
+
+server:
+  port: 7500
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9000/eureka/
+    fetch-registry: true
+    register-with-eureka: false
+
+feign:
+  hystrix:
+    enabled: true

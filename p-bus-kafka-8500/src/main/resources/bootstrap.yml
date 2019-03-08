@@ -1,0 +1,66 @@
+spring:
+  cloud:
+# cloud config
+    config:
+      #      uri: http://localhost:9600
+      label: master
+      profile: bus
+      discovery:
+        enabled: true
+        service-id: config-center
+# cloud bus
+    bus:
+      trace:
+        enabled: true
+      refresh:
+        enabled: true
+# cloud stream, using default binder
+    stream:
+      kafka:
+        binder:
+          brokers: 192.168.74.133:9092
+      default-binder: kafka
+# binding
+      bindings:
+        kafka_input:
+          destination: hello_topic
+          group: hello_group_alph
+          content-type: application/json
+        kafka_output:
+          destination: hello_topic
+
+# define multiply binders
+#      binders:
+#        kafka1:
+#          type: kafka
+#          environment:
+#            spring:
+#              cloud:
+#                stream:
+#                  kafka:
+#                    binder:
+#                      brokers: 192.168.74.133:9092
+
+  kafka:
+    bootstrap-servers: 192.168.74.133:9092
+    consumer:
+      group-id: hello-consumer
+
+
+# eureka
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9000/eureka
+    fetch-registry: true
+    register-with-eureka: false
+
+# actuator
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+      base-path: /actuator
+
+

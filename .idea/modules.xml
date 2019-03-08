@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/a-api/a-api.iml" filepath="$PROJECT_DIR$/a-api/a-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c-config-7600/c-config-7600.iml" filepath="$PROJECT_DIR$/c-config-7600/c-config-7600.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c-eureka-7000/c-eureka-7000.iml" filepath="$PROJECT_DIR$/c-eureka-7000/c-eureka-7000.iml" />
+      <module fileurl="file://$PROJECT_DIR$/c-openfeign-7500/c-openfeign-7500.iml" filepath="$PROJECT_DIR$/c-openfeign-7500/c-openfeign-7500.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p-bus-kafka-8500/p-bus-kafka-8500.iml" filepath="$PROJECT_DIR$/p-bus-kafka-8500/p-bus-kafka-8500.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p-common/p-common.iml" filepath="$PROJECT_DIR$/p-common/p-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p-dashboard-5000/p-dashboard-5000.iml" filepath="$PROJECT_DIR$/p-dashboard-5000/p-dashboard-5000.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p-eureka-8000/p-eureka-8000.iml" filepath="$PROJECT_DIR$/p-eureka-8000/p-eureka-8000.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p-eureka-8001/p-eureka-8001.iml" filepath="$PROJECT_DIR$/p-eureka-8001/p-eureka-8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/p-gateway-8500/p-gateway-8500.iml" filepath="$PROJECT_DIR$/p-gateway-8500/p-gateway-8500.iml" />
+      <module fileurl="file://$PROJECT_DIR$/s-config-9600/s-config-9600.iml" filepath="$PROJECT_DIR$/s-config-9600/s-config-9600.iml" />
+      <module fileurl="file://$PROJECT_DIR$/s-eureka-9000/s-eureka-9000.iml" filepath="$PROJECT_DIR$/s-eureka-9000/s-eureka-9000.iml" />
+      <module fileurl="file://$PROJECT_DIR$/s-kafka-msg-9100/s-kafka-msg-9100.iml" filepath="$PROJECT_DIR$/s-kafka-msg-9100/s-kafka-msg-9100.iml" />
+    </modules>
+  </component>
+</project>
